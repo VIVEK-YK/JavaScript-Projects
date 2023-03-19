@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: min-content;
+    background-color: gray;
+    text-align: center;
+    gap: 20px;
+}
+h2{
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    padding: 5px 10px;
+    
+}
+#email{
+    height: 30px;
+    width: 250px;
+    outline: none;
+    border-color: none;
+
+}
+#button{
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#text{
+    /* border: 1px solid black; */
+    margin-left: -200px;
+    margin-top: -10px;
+    text-decoration: underline;
+    padding: 2px 5px;
+}
