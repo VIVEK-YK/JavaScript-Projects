@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    place-content: center;
+}
+.main{
+    height: 50px;
+    width: 200px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-flex;
+}
+.main::after{
+    height: 15px;
+    width: 8px;
+    position: absolute;
+    content: '';
+    border: 2px solid black;
+    top: 16px;
+    right: -12px;
+
+}
+.bar{
+    border: 1px solid gray;
+    margin: auto;
+    height: 45px;
+    width: 8%;
+    /* background: blue; */
+}
